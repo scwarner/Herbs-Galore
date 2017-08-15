@@ -6,6 +6,7 @@
     <title>Herbs Galore</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/cceaf7a3ea.js"></script>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
@@ -14,23 +15,21 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Herbs Galore</a>
+        <!--
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      -->
+        <div id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Plants">Plants</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Tips</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span id="cart-count"></span></a>
+              <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span id="cart-count">0</span></a>
             </li>
           </ul>
         </div>
@@ -42,7 +41,7 @@
     <main>
       <div class="jumbotron">
       <h1>Herbs Galore</h1>
-      <p>Plentiful plants to beautify your garden and enhance your cooking</p>
+      <p class="lead">Plentiful plants to beautify your garden and enhance your cooking</p>
       </div>
 
       <div class="container">
@@ -55,19 +54,33 @@
           <figcaption>Chives</figcaption>
         </figure>
         <figure>
-          <img src="img/dill.jpg" alt="Dill plant">
+          <a title="By No machine-readable author provided. Megb assumed (based on copyright claims). [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AAnethumgraveolens.jpg"><img width="512" alt="Anethumgraveolens" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Anethumgraveolens.jpg/512px-Anethumgraveolens.jpg"/></a>
           <figcaption>Dill</figcaption>
         </figure>
         <figure>
-          <img src="img/lavender.jpg" alt="Flowering lavender plant">
+          <a href="img/lavender.jpg"><img src="img/lavender.jpg" alt="Flowering lavender plant" title="Photo by A. Fox on Unsplash"></a>
           <figcaption>Lavender</figcaption>
         </figure>
         <figure>
           <img src="img/lemongrass.jpg" alt="Lemongrass plant">
           <figcaption>Lemongrass</figcaption>
         </figure>
+        <figure>
+          <img src="img/mint.jpg" alt="Mint plant">
+          <figcaption>Mint</figcaption>
+        </figure>
+        <figure>
+          <a title="By Thomas Then (selber fotografiert - own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AOregano_1.jpg"><img alt="Oregano plant" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Oregano_1.jpg/512px-Oregano_1.jpg"/></a>
+          <figcaption>Oregano</figcaption>
+        </figure>
+        <figure>
+          <a href="img/rosemary.jpg"><img src="img/rosemary.jpg" alt="Rosemary plant with purple flowers" title="Photo by David Boozer on Unsplash"></a>
+          <figcaption>Rosemary</figcaption>
+        </figure>
       </div>
     </main>
+
+    <footer>&copy; Sarah Warner</footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
