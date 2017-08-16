@@ -1,3 +1,29 @@
-body {
+/****************
+BODY STYLES
+****************/
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/*****************
+HEADER STYLES
+*****************/
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-dark {
+  background-color: #4b2382;
+}
+
+.navbar-brand {
+  font-family: 'Oregano', cursive;
+  font-size: 1.75rem;
+}
+
+.navbar-nav {
+  flex-direction: row;
 }
