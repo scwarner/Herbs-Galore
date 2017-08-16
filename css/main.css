@@ -10,11 +10,11 @@ body {
 /*****************
 HEADER STYLES
 *****************/
-
+/*
 .navbar {
   width: 100%;
 }
-
+*/
 .navbar-dark {
   background-color: #4b2382;
 }
@@ -24,6 +24,36 @@ HEADER STYLES
   font-size: 1.75rem;
 }
 
-.navbar-nav {
-  flex-direction: row;
+.fa-shopping-cart {
+  font-size: 1.5em;
+}
+
+#cart-count {
+  display: none;
+  position: relative;
+  top: 8px;
+  right: 8px;
+  background-color: #147521;
+  color: #fff;
+  padding: 1px 8px;
+  border-radius: 50%;
+}
+
+/******************
+JUMBOTRON STYLES
+******************/
+.jumbotron {
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #c16e17;
+  height: 400px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0;
+}
+
+h1 {
+  font-family: 'Oregano', cursive;
 }
