@@ -10,11 +10,7 @@ body {
 /*****************
 HEADER STYLES
 *****************/
-/*
-.navbar {
-  width: 100%;
-}
-*/
+
 .navbar-dark {
   background-color: #4b2382;
 }
@@ -56,4 +52,5 @@ JUMBOTRON STYLES
 
 h1 {
   font-family: 'Oregano', cursive;
+  font-size: 3.5rem;
 }
