@@ -68,3 +68,13 @@ footer {
   text-align: center;
   padding: 1% 0;
 }
+
+/************************
+MODAL STYLES
+************************/
+.modalContent {
+  width: 75%;
+  margin: 15% auto;
+  padding: 2%;
+  border: 1px solid #000;
+}
