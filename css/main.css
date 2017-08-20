@@ -43,7 +43,7 @@ JUMBOTRON STYLES
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #c16e17;
+  background-color: #147521;
   height: 400px;
   text-align: center;
   color: #fff;
@@ -72,9 +72,48 @@ footer {
 /************************
 MODAL STYLES
 ************************/
+
+.basilModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
 .modalContent {
   width: 75%;
   margin: 15% auto;
-  padding: 2%;
-  border: 1px solid #000;
+  padding: 2% 2% 3% 2%;
+  background-color: #fff;
+}
+
+.close,
+.close:focus {
+  font-size: 1.75rem;
+  color: #147521;
+}
+
+.modalContent h2 {
+  font-size: 1.65rem;
+}
+
+.modalContent h3 {
+  font-size: 1.25rem;
+  color: #147521;
+}
+
+.btn-primary {
+  background-color: #147521;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #147521;
+  border-color: rgba(20,117,33,0.5);
 }
