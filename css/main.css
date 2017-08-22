@@ -93,10 +93,17 @@ MODAL STYLES
   background-color: #fff;
 }
 
-.close,
-.close:focus {
-  font-size: 1.75rem;
-  color: #147521;
+.close {
+  background-color: #147521;
+  color: #fff;
+  border-radius: 50%;
+  opacity: .5;
+  padding: 1% 2%;
+}
+
+.close:focus,
+.close:hover {
+  color: #fff;
 }
 
 .modalContent h2 {
